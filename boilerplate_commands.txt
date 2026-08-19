@@ -1,0 +1,189 @@
+    1  echo hello terminal
+    2  pwd
+    3  ls
+    4  cd freeCodeCamp
+    5  pwd
+    6  ls
+    7  cd test
+    8  pwd
+    9  ls
+   10  cd..
+   11  cd ..
+   12  ls
+   13  more package.json
+   14  clear
+   15  ls
+   16  cd node_modules
+   17  ls
+   18  ls -l
+   19  cd has
+   20  ls
+   21  more readme.md
+   22  more README.md
+   23  clear
+   24  ls
+   25  more LICENCE-MIT
+   26  more LICENSE-MIT
+   27  clear
+   28  ls
+   29  cd src
+   30  pwd
+   31  ls
+   32  more index.js
+   33  ls ..
+   34  ls ..
+   35  ls ..
+   36  cd ..
+   37  cd ..
+   38  pwd
+   39  cd ../..
+   40  ls
+   41  clear
+   42  mkdir website
+   43  ls
+   44  cd website
+   45  ls
+   46  echo hello website
+   47  touch index.html
+   48  touch styles.css
+   49  ls
+   50  touch index.js
+   51  touch .gitignore
+   52  ls
+   53  ls --help
+   54  ls -a
+   55  cd .
+   56  touch background.jpg
+   57  touch header.png
+   58  touch footer.jpeg
+   59  ls
+   60  touch roboto.font
+   61  touch lato.font
+   62  touch menlo.font
+   63  ls
+   64  touch CodeAlly.svg
+   65  touch CodeRoad.svg
+   66  touch freeCodeCamp.svg
+   67  ls
+   68  mkdir images
+   69  ls
+   70  cp background.jpg images
+   71  cd images
+   72  ls
+   73  cd ..
+   74  ls
+   75  rm background.jpg
+   76  ls
+   77  cp header.png images
+   78  cp footer.jpeg images
+   79  cd images
+   80  ls
+   81  cd ..
+   82  ls
+   83  rm header.png
+   84  rm footer.jpeg
+   85  ls
+   86  mv roboto.font roboto.woff
+   87  ls
+   88  mv lato.font lato.ttf
+   89  mv menlo.font menlo.otf
+   90  ls
+   91  mkdir fonts
+   92  ls
+   93  mv roboto.woff fonts
+   94  find
+   95  ls
+   96  mv lato.ttf fonts
+   97  mv menlo.otf fonts
+   98  find
+   99  mkdir client
+  100  mkdir client/src
+  101  mv index.html client/src
+  102  find
+  103  mv index.js client/src
+  104  mv styles.css client/src
+  105  find
+  106  find client
+  107  find --help
+  108  find -name index.html
+  109  find -name styles.css
+  110  find -name src
+  111  find
+  112  cd client
+  113  mkdir assets
+  114  cd assets
+  115  mkdir images
+  116  cd images
+  117  touch background.jpg
+  118  pwd
+  119  cd ../..
+  120  cd ..
+  121  cd client/assets/images
+  122  cd ../../..
+  123  cd images
+  124  ls
+  125  mv header.png ..
+  126  ls
+  127  cd ..
+  128  ls
+  129  find images
+  130  find -name images
+  131  mv header.png client/assets/images
+  132  find -name header.png
+  133  find -name footer.jpeg
+  134  mv images/footer.jpeg client/assets/images
+  135  find
+  136  ls
+  137  rmdir images
+  138  rm images/background.jpg
+  139  rmdir images
+  140  ls
+  141  mkdir client/assets/icons
+  142  mv CodeAlly.svg client/assets/icons
+  143  find
+  144  ls
+  145  mv CodeRoad.svg client/assets/icons
+  146  mv freeCodeCamp.svg client/assets/icons
+  147  find
+  148  mkdir client/assets/fonts
+  149  touch client/assets/fonts/roboto-bold.woff
+  150  touch client/assets/fonts/roboto-light.woff
+  151  find client/assets/fonts
+  152  touch client/assets/fonts/lato-bold.tff
+  153  rm client/assets/fonts/lato-bold.tff
+  154  touch client/assets/fonts/lato-bold.ttf
+  155  touch client/assets/fonts/lato-light.ttf
+  156  find client/assets/fonts
+  157  find
+  158  ls
+  159  rm --help
+  160  rm -r fonts
+  161  ls
+  162  touch package.json
+  163  touch server.js
+  164  touch README.md
+  165  ls
+  166  echo Yay!
+  167  echo I finished the boilerplate!
+  168  echo one more thing...
+  169  echo I made this boilerplate >> README.md
+  170  more README.md
+  171  echo from the command line >> README.md
+  172  more README.md
+  173  echo for the freeCodeCamp bash lessons >> README.md
+  174  more README.md
+  175  pwd
+  176  cd ..
+  177  ls
+  178  mv website website-boilerplate
+  179  ls
+  180  copy --help
+  181  cp --help
+  182  cp -r website-boilerplate toms-website
+  183  ls
+  184  find toms-website
+  185  find website-boilerplate
+  186  clear
+  187  echo goodbye terminal
+  188  exit
+  189  history > boilerplate_commands.txt
